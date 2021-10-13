@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css'>
+    <link rel="stylesheet" href="./style-2.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="72" class="position-relative">
+    <header class="fixed-top page-header">
+        <div class="container-fluid container-fluid-max">
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#inicio"><img src="S-Logo.png" alt="" width="50"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Pagina principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index-2.html">Lugares populares</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown transparentbar">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Contacto
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="index.html">Pagina principal</a></li>
+                                <li><a class="dropdown-item" href="index-2.html">Lugares populares</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="text-white">
+                        <a href="" class="mr-2">
+                            <i class="fas fa-phone"></i>
+                            <div class="d-none d-xl-inline">602578421</div>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-envelope"></i>
+                            <div class="d-none d-xl-inline">viajes@s.company.com</div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="row">
+        <div class="pos col-md-6 col-md-offset-3">
+            <form id="msform">
+                <ul id="progressbar">
+                    <li class="active">Detalles personales</li>
+                    <li>Datos destino</li>
+                    <li>Datos contacto</li>
+                </ul>
+                <fieldset>
+                    <h2 class="fs-title">Detalles personales</h2>
+                    <h3 class="fs-subtitle">Introduzca sus datos personales</h3>
+                    <input type="text" name="nombre" placeholder="Nombre" />
+                    <input type="text" name="apellido1" placeholder="Priemr apellido" />
+                    <input type="text" name="apellido2" placeholder="Segundo apellido" />
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">Datos del destino</h2>
+                    <h3 class="fs-subtitle">Introduzca los datos del destino</h3>
+                    <input type="text" name="Pais" placeholder="Pais" />
+                    <input type="text" name="Ciudad" placeholder="Ciudad" />
+                    <input type="text" name="Transporte" placeholder="Transporte" />
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">Datos de contacto</h2>
+                    <h3 class="fs-subtitle">Introduzca sus datos de contacto</h3>
+                    <input type="email" name="email" placeholder="Email" />
+                    <input type="number" name="telefono" placeholder="Telefono" />
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <footer class="py-5 page-footer">
+        <div class="container-fluid container-fluid-max">
+        </div>
+    </footer>
+
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+    <script src="./script-form.js"></script>
+
+</body>
+
+</html>
